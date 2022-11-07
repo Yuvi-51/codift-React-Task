@@ -1,0 +1,18 @@
+.m-card {
+  margin: 10px;
+  margin-left: 8.5em;
+  margin-bottom: 2em;
+  background: linear-gradient(skyblue, white);
+  box-shadow: 10px;
+  border: solid black 1px;
+  box-shadow: 10px 10px rgb(162, 161, 161);
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  font-weight: 600;
+}
