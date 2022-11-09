@@ -7,15 +7,13 @@ function Main() {
   const userData = useSelector((state) => state.data);
   const dispatch = useDispatch();
 
-  const fetchData = () => {
-    return fetch("https://jsonplaceholder.typicode.com/comments?postId=1")
-      .then((response) => response.json())
-      .then((data) => dispatch(SaveData(data)));
-  };
+
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    fetch("https://jsonplaceholder.typicode.com/comments?postId=1")
+      .then((response) => response.json())
+      .then((data) => dispatch(SaveData(data)));
+  }, [dispatch]);
 
   return (
     <>
