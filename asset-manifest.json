@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codift-React-Task/static/css/main.b2caccd5.css",
+    "main.js": "/codift-React-Task/static/js/main.4b3c658e.js",
+    "static/js/787.e81a081f.chunk.js": "/codift-React-Task/static/js/787.e81a081f.chunk.js",
+    "index.html": "/codift-React-Task/index.html",
+    "main.b2caccd5.css.map": "/codift-React-Task/static/css/main.b2caccd5.css.map",
+    "main.4b3c658e.js.map": "/codift-React-Task/static/js/main.4b3c658e.js.map",
+    "787.e81a081f.chunk.js.map": "/codift-React-Task/static/js/787.e81a081f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2caccd5.css",
+    "static/js/main.4b3c658e.js"
+  ]
+}
